@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sort-number.iml" filepath="$PROJECT_DIR$/.idea/sort-number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Number-Draw.iml" filepath="$PROJECT_DIR$/.idea/Number-Draw.iml" />
     </modules>
   </component>
 </project>
