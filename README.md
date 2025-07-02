@@ -29,3 +29,6 @@ The project is designed to be clean, responsive, and easy to extend.
    git clone https://github.com/your-username/number-draw.git
 2. Open index.html in your browser.
 3. Enter the values (quantity, from, to) – logic coming soon!
+
+
+**JS COOMING SOON**
