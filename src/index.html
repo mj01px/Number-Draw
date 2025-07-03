@@ -31,17 +31,28 @@
 
     <!-- Action buttons -->
     <div class="buttons">
-        <button class="btn-draw" onclick="drawNumbers()">Draw</button>
+        <button class="btn-draw" onclick="sortNumbers()">Draw</button>
         <button class="btn-reset" onclick="resetGame()">Reset</button>
     </div>
 
-    <!-- Result display -->
-    <div class="result-box">
-        Drawn numbers: <span id="numbers">none yet</span>
+    <!-- Alert Modal -->
+    <div class="custom-alert" id="custom-alert">
+        <div class="alert-content">
+            <span class="close-alert">&times;</span>
+            <p id="alert-message"></p>
+            <button class="btn-alert">OK</button>
+        </div>
     </div>
+
+    <!-- Result display -->
+    <div id="result" class="result-box">
+        No numbers drawn yet
+    </div>
+
 
 </div>
 
 <script src="js/app.js"></script>
+<script src="js/modal.js"></script>
 </body>
 </html>
